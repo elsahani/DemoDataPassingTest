@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         tvPassDouble.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, ThirdActivity.class);
+                Intent i = new Intent(MainActivity.this, FourthActivity.class);
                 i.putExtra("double", 99.99);
                 startActivity(i);
             }
